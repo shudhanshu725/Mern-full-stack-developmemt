@@ -1,0 +1,32 @@
+/* Target first child */
+main :first-child{
+    color: yellowgreen;
+}
+
+/* Target 2nd child */
+main :nth-child(2){ 
+    color: rgb(255, 0, 0);
+}
+
+/* Target last child */
+main :last-child{
+    color: blue;
+}
+
+/* Target 2nd last child */
+main :nth-last-child(2){
+    color: #ff00ff;
+}
+
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0 , 0.2);
+}
+
+#box:hover{
+    background-color: red;
+    cursor: pointer;
+}
+

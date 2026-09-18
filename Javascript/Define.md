@@ -29,7 +29,7 @@ it is two types-
         |   -----> Identifier
         -------- > keyword
 
-#Type of token :- it is five type
+# Type of token :- it is five type
             1) Keyword - Keyword are pre defined word that is used to prefer some specific task 
               ex - var, let, const, function, if , else, switch, case, break, continue, do , while, for, in , delete , try, catch, finally,  throw, extend 
 
@@ -51,3 +51,34 @@ it is two types-
 
             5) Punctuator :- these are symbols used to group, separate or punctuate code .  
               ex - () , {}, [], commas"," , ; , and the period (used to excess objects property ).            
+
+# What is difference between "var" , "let" and "const" keyword?
+1) VAR- MULTIPLE TIME DECLARATION  , MULTIPLE TIME INITIALIZATION ,  Variable declared with var keyword goes to global scope , variable declared with var keyword support hosting and does not belong to temporal dead Zone (TDJ)
+     EX- var a = 10 ;
+
+2) let -> one time declaration, multiple time initialization , Variable declared with let keyword goes to block scope on script scope ,  variable declared with let keyword support hosting bbut belong to TDZ 
+        ex- let b = 20;
+
+3) const -> one time declaration , one time  initialization, '''''' etc
+        ex- const c = 30        
+
+# TYPE OF OPERATOR on the basis of operand , operator are 3 type
+  1) Unary operator:- i>increment/ decrement
+                      ii> logical not (!)
+
+  2) binary operator:- i> Arithamatic operator ( +,-,/, %)    
+                      ii> Assignment operator  (=)       
+                      iii> Compound assignment operator ( +=, -=, *=,/=,%=, **=)
+                      iv> relational operator /comparison operator (>,<,>=,<=, ==, !=)  ===(strict equality)  !== (strict not equality)  
+  3) Logical operator :- i>Logical AND (&&),  ii> Logical OR (||) operator 
+  4) Ternary Operator :-  i> conditional operator 
+                          operand 1 ? operand 2 : operand 3
+
+# TYPE COERION :- 
+To convert one type of data into another type of js engine is known as type coerion  
+# type of type coerion  - it is two type
+1)Implicit type coerion -> to convert one type of data into anther type with the help of js engine implicit (autometically) is known as implicit type coerion 
+
+ex- const a = 10 ; const b= "5";
+console.log(a - b) ---- Automatically  b string convert into a number and answer is 5 
+

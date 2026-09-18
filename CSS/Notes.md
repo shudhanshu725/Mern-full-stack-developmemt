@@ -53,5 +53,15 @@ total size = content + padding + border + margin
 3)How to horizontally center a container 
   margin: 0  auto; Margin-inline: left Right; margin-block: top bottom;
 
+4) Padding property:- padding-top, padding-right,padding-left, padding-bottom (in px)
+  padding : T R B L ; padding: __TB__,___LR___; padding-inline: left Right; padding-block: top bottom;
+
+5) Border property :- border-width : px ; Border-style: solid, dotted,dashed, double , grove. 
+Border-color : red ; border-top,right,bottom,left: width style color; Border-radius: top-left_top-right_bottom-right_bottom-left;
+border-radius: 50% for circle ; 
+
+6) Overflow property :- overflow : visible, hidden, scroll, auto .
+7) Box shadow: offset-x__offset-y__blur radius__spread radius__color of shadow__inset(for inside shadow)
+
 
 

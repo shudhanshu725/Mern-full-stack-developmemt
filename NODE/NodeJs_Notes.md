@@ -37,3 +37,10 @@ export default add;
 // app.js
 import addition from "./math.js";
 ```
+## What is Module function executor
+
+- In node.js the module function executor refer to the automatic function wrapper that node .js    uses to execute every module 
+- before node.js run a module code ,it wraps the entire file content inside a function like this -
+- (function (export,require, __filename, __dirname ){
+    //your module code actually live here
+   });

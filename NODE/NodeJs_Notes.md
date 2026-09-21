@@ -44,3 +44,23 @@ import addition from "./math.js";
 - (function (export,require, __filename, __dirname ){
     //your module code actually live here
    });
+
+## what is __filename,__dirname ?
+
+1. __filename: the full absolute path of current javascript file (including the file name)
+  ex- c:\Users\Shudhanshu\OneDrive\Desktop\Mern full stack developmemt\NODE\Day-6 Path module\app.js
+  
+2. __dirname : the full absolute path of folder that contains the current  javascript file
+  ex- c: \Users\Shudhanshu\OneDrive\Desktop\Mern full stack developmemt\NODE\Day-6 Path module
+
+# What is path modules
+  the path module is a build-in node.js tool that help you work with file and folder paths (join them,  get the directory name ,file name , extension, etc) in a safe and cross platform way.
+
+1. **Path.join():** Joins path segment safely.
+2. **path.resolve():** resole to a absolute path.
+3. **path.dirname():** return te directory name of path.
+4. **path.basename():** return the last portion of path (filename).
+5. **path.extname():** return the file extension .
+6. **path.parser():** parses a path into a object .
+7. **path.format():** builds a path string from object.
+8. **path.isAbsolute():** checks if a path is absolute. 

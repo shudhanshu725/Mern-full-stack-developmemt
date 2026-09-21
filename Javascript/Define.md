@@ -66,7 +66,7 @@ it is two types-
   1) Unary operator:- i>increment/ decrement
                       ii> logical not (!)
 
-  2) binary operator:- i> Arithamatic operator ( +,-,/, %)    
+  2) binary operator:- i> Arithematic operator ( +,-,/, %)    
                       ii> Assignment operator  (=)       
                       iii> Compound assignment operator ( +=, -=, *=,/=,%=, **=)
                       iv> relational operator /comparison operator (>,<,>=,<=, ==, !=)  ===(strict equality)  !== (strict not equality)  
@@ -77,8 +77,18 @@ it is two types-
 # TYPE COERION :- 
 To convert one type of data into another type of js engine is known as type coerion  
 # type of type coerion  - it is two type
-1)Implicit type coerion -> to convert one type of data into anther type with the help of js engine implicit (autometically) is known as implicit type coerion 
+1)Implicit type coerion -> to convert one type of data into anther type with the help of js engine implicit (automatically) is known as implicit type coerion 
 
 ex- const a = 10 ; const b= "5";
 console.log(a - b) ---- Automatically  b string convert into a number and answer is 5 
+
+2) Explicit type coerion -> to convert onr type of data into another type forcefully (explicit) with the help of jsengine is known as explicit type coerion  
+  ii) here we use inbuild methods - string(), bigint(), boolean(), symbol(), number()
+
+## Type of literals
+
+1) Primitive literal: Primitive values are single-valued literals. Primitive literals are immutable (cannot be changed).
+Ex - let a =10;
+
+
 

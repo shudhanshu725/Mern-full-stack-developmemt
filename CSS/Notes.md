@@ -63,5 +63,19 @@ border-radius: 50% for circle ;
 6) Overflow property :- overflow : visible, hidden, scroll, auto .
 7) Box shadow: offset-x__offset-y__blur radius__spread radius__color of shadow__inset(for inside shadow)
 
+### Flex box ### 
+    It is a one dimension layout module system
+
+Flex terminology:- 
+1) Display: flex , 
+2) flex-direction : row(default), column , 
+3) flex-wrap : no wrap(default), wrap, wrap-reverse , 
+4) flex-flow : ___(flex direction) ___(flex wrap) 
+5)gap : row gap  column gap , 
+6) justify-content : start(default),emd , center, space between , space around, space evenly , 
+7) align-item : stretch(default), start, end , center 
+8)align-content: start, end , center , space between , space around, space evenly, stretch(default) .
+ 
+
 
 

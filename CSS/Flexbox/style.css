@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 1200px;
+    height: 600px;
+    border: 2px solid black;
+    background-color: wheat;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-content: center;
+}
+
+main .card{
+    width: 200px;
+    height: 150px;
+    font-size: 28px;
+    padding: 20px;
+    border-radius: 20px;
+    /* align-items: baseline; */
+}
+
+main .c1{
+    background-color: violet;
+}
+
+main .c2{
+    background-color: rgb(130, 238, 218);
+}
+
+main .c3{
+    background-color: rgb(143, 238, 130);
+}
+
+main .c4{
+    background-color: rgb(244, 244, 57);
+}
+
+
+
+

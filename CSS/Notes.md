@@ -76,6 +76,26 @@ Flex terminology:-
 7) align-item : stretch(default), start, end , center 
 8)align-content: start, end , center , space between , space around, space evenly, stretch(default) .
  
+### Grid container property
 
+it is a two dimension layout module system
+
+## Grid terminology 
+  Grid row line, Grid column line, row, column , track , cell, Grid container,  grid item 
+## Grid container property
+1) Display grid
+2) grid-template-column: 100px 100px 100px , repeat(3(column count), 100px(track size)), 1fr(frictional unit)
+3) grid-template-row: 100px 100px 100px , repeat(3(row count), 100px(track size)), 1fr(frictional unit)
+4) gap: row gap  column gap OR gap:______;
+5) justify-items: stretch, start, end, center;
+6) align-items: stretch ,start , end , center;
+7) place-items: align-item  justify-item; OR place -item:____;
+8)justify-content: start, end , center , space-between , space-around, space-evenly;
+9)align-content: start, end center, space-between, space-around, space-evenly;
+10) place-content: align-content  justify-content;
+11) grid-auto-flow: row(default), column;
+12) grid-auto-row: auto(def), value in pixel;
+13) grid-auto-column:auto(def) , value(in pix)
+14) grid-template-area:_______
 
 

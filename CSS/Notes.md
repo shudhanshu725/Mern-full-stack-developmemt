@@ -98,4 +98,8 @@ it is a two dimension layout module system
 13) grid-auto-column:auto(def) , value(in pix)
 14) grid-template-area:_______
 
+## Positioning ##
+Position: Static , relative,  absolute, sticky, fixed 
+
+when we want to put card on center with the help of positioning then we apply top: 50%, left:50 and transform : translate(-50%,-50%)26.
 

@@ -8,17 +8,17 @@
 
 
 
-# Javascript Runtime environment (JRE)
+## Javascript Runtime environment (JRE)
  - Javascript runtime environment provides environment where we excute our javascript code 
 
-# Type of JRE 
+## Type of JRE 
 it is two types-
             1) Browser
             2) NODE JS 
 
-# if npm throw error after node install then type " Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser "
+## if npm throw error after node install then type " Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser "
 
-# TOKEN -
+## TOKEN -
   it is a smallest unit of programming language 
   ex - let a = 10 ;
         |  | |  | |
@@ -29,7 +29,7 @@ it is two types-
         |   -----> Identifier
         -------- > keyword
 
-# Type of token :- it is five type
+## Type of token :- it is five type
             1) Keyword - Keyword are pre defined word that is used to prefer some specific task 
               ex - var, let, const, function, if , else, switch, case, break, continue, do , while, for, in , delete , try, catch, finally,  throw, extend 
 
@@ -52,7 +52,7 @@ it is two types-
             5) Punctuator :- these are symbols used to group, separate or punctuate code .  
               ex - () , {}, [], commas"," , ; , and the period (used to excess objects property ).            
 
-# What is difference between "var" , "let" and "const" keyword?
+## What is difference between "var" , "let" and "const" keyword?
 1) VAR- MULTIPLE TIME DECLARATION  , MULTIPLE TIME INITIALIZATION ,  Variable declared with var keyword goes to global scope , variable declared with var keyword support hosting and does not belong to temporal dead Zone (TDJ)
      EX- var a = 10 ;
 
@@ -62,7 +62,7 @@ it is two types-
 3) const -> one time declaration , one time  initialization, '''''' etc
         ex- const c = 30        
 
-# TYPE OF OPERATOR on the basis of operand , operator are 3 type
+## TYPE OF OPERATOR on the basis of operand , operator are 3 type
   1) Unary operator:- i>increment/ decrement
                       ii> logical not (!)
 
@@ -74,7 +74,7 @@ it is two types-
   4) Ternary Operator :-  i> conditional operator 
                           operand 1 ? operand 2 : operand 3
 
-# TYPE COERION :- 
+## TYPE COERION :- 
 To convert one type of data into another type of js engine is known as type coerion  
 # type of type coerion  - it is two type
 1)Implicit type coerion -> to convert one type of data into anther type with the help of js engine implicit (automatically) is known as implicit type coerion 

@@ -34,9 +34,9 @@ it is two types-
               ex - var, let, const, function, if , else, switch, case, break, continue, do , while, for, in , delete , try, catch, finally,  throw, extend 
 
             2) Identifier - identifier is user given name 
-               i) name of variable
-               ii) name function
-               iii)name of class and className
+               i) name of variable - Lower camel casing ie fullName
+               ii) name function - lower camel casing ie  '''
+               iii)name of class and className - upper camel casing i.e SedanCar 
                ex- let user =" raj";
                         |
                         ----Identifier(variable)  
@@ -56,7 +56,7 @@ it is two types-
 1) VAR- MULTIPLE TIME DECLARATION  , MULTIPLE TIME INITIALIZATION ,  Variable declared with var keyword goes to global scope , variable declared with var keyword support hosting and does not belong to temporal dead Zone (TDJ)
      EX- var a = 10 ;
 
-2) let -> one time declaration, multiple time initialization , Variable declared with let keyword goes to block scope on script scope ,  variable declared with let keyword support hosting bbut belong to TDZ 
+2) let -> one time declaration, multiple time initialization , Variable declared with let keyword goes to block scope or script scope ,  variable declared with let keyword support hosting but belong to TDZ 
         ex- let b = 20;
 
 3) const -> one time declaration , one time  initialization, '''''' etc
@@ -70,6 +70,9 @@ it is two types-
                       ii> Assignment operator  (=)       
                       iii> Compound assignment operator ( +=, -=, *=,/=,%=, **=)
                       iv> relational operator /comparison operator (>,<,>=,<=, ==, !=)  ===(strict equality)  !== (strict not equality)  
+          
+
+
   3) Logical operator :- i>Logical AND (&&),  ii> Logical OR (||) operator 
   4) Ternary Operator :-  i> conditional operator 
                           operand 1 ? operand 2 : operand 3
@@ -92,3 +95,21 @@ Ex - let a =10;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+## Scope ##
+Scope defined the accessibility and visibility of code
+
+### type of scope
+1) Global scope
+2) Local / function / block scope

@@ -93,23 +93,25 @@ console.log(a - b) ---- Automatically  b string convert into a number and answer
 1) Primitive literal: Primitive values are single-valued literals. Primitive literals are immutable (cannot be changed).
 Ex - let a =10;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Scope ##
 Scope defined the accessibility and visibility of code
 
 ### type of scope
 1) Global scope
 2) Local / function / block scope
+
+
+
+
+
+
+## what is array
+### Array is the object in javascript,it is a non primitive type of literal, it is a block of memory used to store multiple type of value(any type of literal) in a same memory block, Array size is dynamically (size is not fixed like other language )it mean we store n number of element and js engine will handle memory usage automatically, value store inside array are referred as array element , if want to access the index greater than array length we will get undefined.  
+
+Array Inbuild methods
+1)push() - it use to add one or more element in array , it modify the original array, it return new length of array
+2)pop() - it is used to remove the element of array from last, it also modify the original arrayit return the remove array
+3)shift() - 
+unshift(), splice(), slice(), reverse(), indexof(), includes(), sort(), Foreach(), map(), filter(), find(), findindex(), reduce(), some(), every(), Array.isArray(), 
+
+4) Map : it return same lenght of array

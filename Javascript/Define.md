@@ -115,3 +115,11 @@ Array Inbuild methods
 unshift(), splice(), slice(), reverse(), indexof(), includes(), sort(), Foreach(), map(), filter(), find(), findindex(), reduce(), some(), every(), Array.isArray(), 
 
 4) Map : it return same lenght of array
+
+## Difference between map() and filter()
+   1) map()- it is used to iterate over an array and transform each element, it is a higher order function , it always return a new array of same length 
+   2) filter()- it is used to iterate over an array and select element based on condition , it is higher order function , it return a new array that may be sorter than the original (return empty array[] if match not found) 
+
+## difference between Find() and filter() 
+   1) find() - it is used to itterate over an array and return first element that satisfy the condition , it is higher order function , it return a single element or undefined if no match found  
+   2) filer() - it is used to iterate over an array and return all element satisfy the condition , it return higher order function ,  it return new array (empty array[] if no match found ).   

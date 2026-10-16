@@ -50,3 +50,31 @@ const x = arr.map(element =>{
     }
 });
 console.log(x); // Output: [undefined, undefined, undefined, 40, 50]
+
+//filter() - creates a new array with all elements that pass the test implemented by the provided function
+const numbers = [1, 2, 3, 4, 5, 6];
+const numbersGreaterThanThree = numbers.filter(num => num > 3);
+console.log(numbersGreaterThanThree); // Output: [4, 5, 6]
+
+const products =[
+    { id: 1, name: "Samsung FE Tab", price: 90000  , company: "Samsung"},
+    { id: 2, name: "Macbook", price: 149000 , company: "Apple"},
+    { id: 3, name: "Samsung s26", price: 134000 , company: "Samsung"},
+    { id: 4, name: "iphone", price: 179000 , company: "Apple"},
+    { id: 5, name: "ipad pro", price: 85000 , company: "Apple"},
+]
+
+const expensiveProducts = products.filter(product => product.price < 150000);
+console.log(expensiveProducts);
+
+const samsungProducts = products.filter(product => product.company === "Apple" && product.price > 150000);
+console.log(samsungProducts);
+
+//some() - tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
+const ages = [18, 20, 25, 30, 35];
+const hasAdult = ages.some(age => age >= 18);
+console.log(hasAdult); // Output: true
+
+//every() - tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+const allAdults = ages.every(age => age >= 18);
+console.log(allAdults); // Output: true

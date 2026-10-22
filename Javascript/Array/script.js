@@ -67,7 +67,7 @@ const products =[
 const expensiveProducts = products.filter(product => product.price < 150000);
 console.log(expensiveProducts);
 
-const samsungProducts = products.filter(product => product.company === "Apple" && product.price > 150000);
+const samsungProducts = products.filter(product => product.company === "Samsung" && product.price > 130000);
 console.log(samsungProducts);
 
 //some() - tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
@@ -78,3 +78,11 @@ console.log(hasAdult); // Output: true
 //every() - tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
 const allAdults = ages.every(age => age >= 18);
 console.log(allAdults); // Output: true
+
+//reduce() - executes a reducer function on each element of the array, resulting in a single output value. It takes two parameters: a callback function and an optional initial value.
+const numbersToReduce = [1, 2, 3, 4, 5];
+const sum = numbersToReduce.reduce((accumulator, currentValue) => {
+    accumulator = accumulator + currentValue 
+    return accumulator 
+    }, 0);  // Initial value is 0
+console.log(sum); // Output: 15

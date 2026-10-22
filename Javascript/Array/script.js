@@ -88,14 +88,26 @@ const sum = numbersToReduce.reduce((accumulator, currentValue) => {
 console.log(sum); // Output: 120
 
 const product = [
-    { id: 1, name: "Samsung FE Tab", price: 90000  , company: "Samsung", qty: 10},
-    { id: 2, name: "Mac book", price: 149000 , company: "Apple", qty: 5},
-    { id: 3, name: "Samsung s26", price: 134000 , company: "Samsung", qty: 8},
-    { id: 4, name: "iphone", price: 179000 , company: "Apple", qty: 15},
-    { id: 5, name: "ipad pro", price: 85000 , company: "Apple", qty: 12},
+    { id: 1, name: "Mac book", price: 149000 , company: "Apple", qty: 1},
+    { id: 2, name: "Samsung s26", price: 180000 , company: "Samsung", qty: 2},
+    { id: 3, name: "iphone", price: 140000 , company: "Apple", qty: 3},
+    { id: 4, name: "ipad pro", price: 192000 , company: "Apple", qty: 4},
 ]
 
 const totalqty = product.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue.qty;
+    return accumulator + currentValue.price * currentValue.qty;
 }, 0); // Initial value is 0
 console.log(totalqty); // Output: 50
+
+//Array.isArray() - determines whether the passed value is an array. It returns a Boolean value.
+const arr1 = [1, 2, 3];
+console.log(Array.isArray(arr1)); // Output: true
+console.log(typeof arr1); // Output: object
+
+const str ="Hello";
+const arr2 = Array.from(str);
+console.log(arr2); // Output: ['H', 'e', 'l', 'l', 'o']
+
+const object = { a: 1, b: 2, c: 3 };
+const arr3 = Array.from(object);
+console.log(arr3); // Output: [] // Array.from() does not work with objects directly, it only works with iterable objects like strings, arrays, or array-like objects.

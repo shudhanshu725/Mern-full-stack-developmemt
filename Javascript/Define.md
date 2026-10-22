@@ -123,3 +123,14 @@ unshift(), splice(), slice(), reverse(), indexof(), includes(), sort(), Foreach(
 ## difference between Find() and filter() 
    1) find() - it is used to itterate over an array and return first element that satisfy the condition , it is higher order function , it return a single element or undefined if no match found  
    2) filer() - it is used to iterate over an array and return all element satisfy the condition , it return higher order function ,  it return new array (empty array[] if no match found ).   
+
+
+### OBJECT IN JS
+1. Object is non primitive , refrence based data , object is block of code which have state (property) and behaviour (method) and it can store heterogenous type of data , in object we can store data in key value pair and each key value pair is separated by comma 
+ex - const user = {
+  name : "ram", // state(properties)
+  age: 23,      // state(property)
+  greet:()=>{         //Behavior (method)
+    c.log("hello")
+  }
+}    

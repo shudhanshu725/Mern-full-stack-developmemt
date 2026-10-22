@@ -58,7 +58,7 @@ console.log(numbersGreaterThanThree); // Output: [4, 5, 6]
 
 const products =[
     { id: 1, name: "Samsung FE Tab", price: 90000  , company: "Samsung"},
-    { id: 2, name: "Macbook", price: 149000 , company: "Apple"},
+    { id: 2, name: "Mac book", price: 149000 , company: "Apple"},
     { id: 3, name: "Samsung s26", price: 134000 , company: "Samsung"},
     { id: 4, name: "iphone", price: 179000 , company: "Apple"},
     { id: 5, name: "ipad pro", price: 85000 , company: "Apple"},
@@ -82,7 +82,20 @@ console.log(allAdults); // Output: true
 //reduce() - executes a reducer function on each element of the array, resulting in a single output value. It takes two parameters: a callback function and an optional initial value.
 const numbersToReduce = [1, 2, 3, 4, 5];
 const sum = numbersToReduce.reduce((accumulator, currentValue) => {
-    accumulator = accumulator + currentValue 
-    return accumulator 
-    }, 0);  // Initial value is 0
-console.log(sum); // Output: 15
+    accumulator = accumulator * currentValue ;
+    return accumulator ;
+    }, 1);  // Initial value is 1
+console.log(sum); // Output: 120
+
+const product = [
+    { id: 1, name: "Samsung FE Tab", price: 90000  , company: "Samsung", qty: 10},
+    { id: 2, name: "Mac book", price: 149000 , company: "Apple", qty: 5},
+    { id: 3, name: "Samsung s26", price: 134000 , company: "Samsung", qty: 8},
+    { id: 4, name: "iphone", price: 179000 , company: "Apple", qty: 15},
+    { id: 5, name: "ipad pro", price: 85000 , company: "Apple", qty: 12},
+]
+
+const totalqty = product.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue.qty;
+}, 0); // Initial value is 0
+console.log(totalqty); // Output: 50

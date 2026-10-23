@@ -54,7 +54,7 @@ greet("Aditi")
  * ! Immediately Invoked Function Expression(IIFE)
  * 
  * ? It runs only 1 time
- 
+
 
 (
     function getLocation(user)
@@ -65,3 +65,12 @@ greet("Aditi")
 )("Raj")
 */
 
+async function getData() {
+  return 10;
+}
+
+console.log(getData());
+
+
+console.log("5" - 2);
+console.log("hello" - 3);

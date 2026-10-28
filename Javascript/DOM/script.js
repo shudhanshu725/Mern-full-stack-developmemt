@@ -16,3 +16,5 @@ h1.textContent = 'Namaste Javascript';
 
 const root = document.getElementById('root');
 root.appendChild(h1);
+
+// root.append(p1,p2,p3) use for multiple elements

@@ -1,16 +1,16 @@
-import react from 'react';
+import Child from "./component/Child";
 
 
-const Shudhanshu = () => {
-  const usersname ={ name: "Shudhanshu" ,
-  age: 20,
-  };
+const App = () => {
+  const usersname = { name: "Shudhanshu", age: 20 };
   return (
     <div>
-      <h1>{usersname.name}</h1>
-      <h3>{usersname.age > 18 ? "Adult" : "Not an adult"}</h3>
+      <h1>App Component</h1>
+      <Child message="Hello from App!" email="shudhanshu@example.com" />
+      <p>Name: {usersname.name}</p>
+      <p>Age: {usersname.age}</p>
     </div>
   );
 };
 
-export default Shudhanshu;
+export default App;

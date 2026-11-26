@@ -16,13 +16,28 @@
 
 
 import Child from "./Child";
-const user = ["Shudhanshu", "Rohit", "Ankit"];
+const user1 = {
+  id : "012",
+  name : "Shudhanshu",
+  age : 22,
+};
+const user2 = {
+  id : "013",
+  name : "Rohit",
+  age : 25,
+};
+const user3 = {
+  id : "014",
+  name : "Ankit",
+  age : 30,
+};
+const users = [user1, user2, user3];
 const Parent = () => {
   return (
     <div>
       <h1>Parent Component</h1>
-      {user.map((element, index) => ( 
-        <Child key={index} element={element} />
+      {users.map((element, index) => ( 
+        <Child key={element.id} element={element} />
       ))}
     </div>
   );

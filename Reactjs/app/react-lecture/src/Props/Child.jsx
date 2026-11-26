@@ -14,11 +14,13 @@
 
 // export default Child;
 
-
+//Flag level destructuring of props object in child component
 const Child = ({element}) => { 
+  const { name, age } = element; // destructuring
   return (
     < div>
-      <p>Name: {element}</p>
+      <p>Name: {name}</p>
+      <p>Age: {age}</p>
     </div>
   )
 }

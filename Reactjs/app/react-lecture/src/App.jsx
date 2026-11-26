@@ -1,4 +1,5 @@
 import Parent from "./Props/Parent";
+// import Parents from "./component/Parents";
 
 
 const App = () => {

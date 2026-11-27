@@ -1,4 +1,4 @@
-import CompD from "./CompB"
+import CompD from "./CompD"
 
 const CompC = ({user}) => {
     return (
